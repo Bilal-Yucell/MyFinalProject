@@ -27,4 +27,4 @@ namespace Core.Utilities.Results
         }
     }
 }
-}
+
