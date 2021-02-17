@@ -6,7 +6,7 @@ using System.Text;
 namespace Business.Constants
 {
     // public'ler Pascal Case yazılır; ProductAdded
-    // private'ler böyle yazılır; productAdded
+    // private'ler Camel Case yazılır; productAdded
     public static class Messages
     {
         public static string ProductAdded = "Ürün eklendi";

@@ -10,7 +10,8 @@ namespace Core.Utilities.Results
         // getter readonly'dir, readonly'ler constructor'da set edilebilir.
         // this : bulunduğu class demek yani Result.
         public Result(bool success, string message) : this(success) // Result'un tek parametreli constructor'ına 
-                                                                    // success'ı yolla demek
+                                                                    // (yani hemen alttaki constructor'a) 
+                                                                    //  success'ı yolla demek
         {
             Message = message;
         }
