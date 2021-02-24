@@ -9,7 +9,8 @@ using System.Text;
 
 namespace Core.Aspects.Autofac.Validation
 {
-    public class ValidationAspect : MethodInterception
+    public class ValidationAspect : MethodInterception  // ValidationAspect bir MethodInterception demek bu, 
+                                                       //yani bizim aspect'imiz
     {
         private Type _validatorType;
         public ValidationAspect(Type validatorType)
